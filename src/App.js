@@ -1,6 +1,6 @@
 import React from 'react';
 import { useEffect, useState } from 'react';
-import { QueryClient, QueryClientProvider, useQuery } from 'react-query'
+// import { QueryClient, QueryClientProvider, useQuery } from 'react-query'
 import './App.css';
 
 function App() {
