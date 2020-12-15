@@ -4,10 +4,10 @@ import { useEffect, useState } from 'react';
 import './App.css';
 
 function App() {
-  const [date, setDate] = useState(null);
-  useEffect(() => {
-    console.log('use effect');
-  });
+  // const [date, setDate] = useState(null);
+  // useEffect(() => {
+  //   console.log('use effect');
+  // });
   return (
     <main>
       <h1>Random Video Game Generator</h1>
@@ -21,7 +21,7 @@ function App() {
       </p>
       <br />
       <h2>The date according to Go is:</h2>
-      <p>{date ? date : 'Loading date...'}</p>
+      {/* <p>{date ? date : 'Loading date...'}</p> */}
     </main>
   );
 }
